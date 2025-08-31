@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser 🎉  
+Open [Lottery-game](https://aditya-6655kh.github.io/lottery-game/) in your browser 🎉  
 
 ---
 
