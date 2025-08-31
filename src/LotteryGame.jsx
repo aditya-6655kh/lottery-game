@@ -2,20 +2,6 @@ import { useState } from "react";
 import GameStarted from "./GameStarted.jsx";
 import Rules from "./Rules.jsx";
 export default function LotteryGame() {
-  const [gameStarted, setGameStarted] = useState(false);
-  const [gameWon, setGameWon] = useState(false);
-  const [ticket, setTicket] = useState([]);
-  const [amount, setAmount] = useState(1000);
-
-  const genRandomTicket = () => {
-    const numbers = genRandNums(3);
-    setTicket(numbers);
-  };
-
-  const handleGameResult = (result) => {
-    setGameWon(result);
-  };
-
   return (
     <div className="flex items-center justify-center min-h-screen ">
       {!gameStarted ? (
